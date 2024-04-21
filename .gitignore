@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # Resources
 ExerciseMedia/
 Textures/
+
+## Word file
+*.docx
