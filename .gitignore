@@ -401,5 +401,8 @@ FodyWeavers.xsd
 ExerciseMedia/
 Textures/
 
-## Word file
+# Word file
 *.docx
+
+# test folders
+CppTest
