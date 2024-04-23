@@ -21,23 +21,23 @@ std::array<Vertex, 8> vertices = {
 
 (a): POINTLIST 하나의 픽셀로 정점이 찍히기 때문에 자세하게 보아야 한다.
 
-![img](./POINTLIST.png)
+![img](./images/POINTLIST.png)
 
 (b): LINESTRIP
 
-![img](./LINESTRIP.png)
+![img](./images/LINESTRIP.png)
 
 (c): LINELIST
 
-![img](./LINELIST.png)
+![img](./images/LINELIST.png)
 
 (d): TRIANGLESTRIP
 
-![img](./LINESTRIP.png)
+![img](./images/LINESTRIP.png)
 
 (e): TRIANGLELIST를 구현하기 위해 정점을 하나 추가, WIREFRAME 모드와 backface culling 비활성.
 
-![img](./TRIANGLELIST.png)
+![img](./images/TRIANGLELIST.png)
 
 5. 정점들을 이어 삼각형을 만드는 경우 자동적으로 비선형 보간이 일어나 각 픽셀들이 보간된 색으로 맞춰진다.
 6. 정점 데이터를 그대로 둔 상태에서 각각의 물체에 월드 행렬(즉, 각 물체에 대한 상수 버퍼를적용시키는 방법)을 적용시키는 방법을 모르겠다. 이후 7장에서 배우는 듯하다. 지금은 각 정점의 좌표를 변경하는 것이 최선.
